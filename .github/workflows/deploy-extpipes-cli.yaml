@@ -1,5 +1,5 @@
 ---
-name: deploy-bootstrap-cli
+name: deploy-extpipes-cli
 
 on:
     push:
