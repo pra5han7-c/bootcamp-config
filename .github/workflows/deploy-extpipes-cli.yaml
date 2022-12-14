@@ -35,7 +35,7 @@ jobs:
 
         steps:
             - uses: actions/checkout@v3
-            - uses: cognitedata/inso-extipipes-cli@main
+            - uses: cognitedata/inso-extpipes-cli@main
               env:
                   EXTPIPES_IDP_CLIENT_ID: ${{ secrets.CLIENT_ID }}
                   EXTPIPES_IDP_CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
