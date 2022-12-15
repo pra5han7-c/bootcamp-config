@@ -15,7 +15,7 @@ schedule:
 dataSetExternalId: src:001:sap:ds
 # Specify credentials sss separately like this:
 # dummy
-# authentication:
+# auth:
 #   read:
 #     clientId: ${READ_CLIENT_ID}
 #     clientSecret: ${READ_CLIENT_SECRET}
