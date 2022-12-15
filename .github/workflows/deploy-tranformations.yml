@@ -37,7 +37,7 @@ jobs:
         env:
             CDF_HOST: https://${{ matrix.CDF_CLUSTER }}.cognitedata.com/
             # Credentials to be used when running your transformations,
-            # as referenced in your manifests
+            # as referenced in in your manifests
             COGNITE_CLIENT_ID: ${{ secrets.CLIENT_ID }}
             COGNITE_CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
             CDF_PROJECT_NAME: ${{ matrix.CDF_PROJECT }}
