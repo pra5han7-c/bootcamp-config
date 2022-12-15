@@ -11,7 +11,7 @@ shared: true
 action: update
 dataSetExternalId: uc:001:oee:ds
 # Specify credentials ss separately like this:
-# authentication:
+# auth:
 #   read:
 #     clientId: ${READ_CLIENT_ID}
 #     clientSecret: ${READ_CLIENT_SECRET}
