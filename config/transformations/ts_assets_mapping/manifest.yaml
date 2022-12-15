@@ -34,7 +34,7 @@ dataSetExternalId: uc:001:oee:ds
 #     # Optional: If idP requires providing the audience
 #     audience: ${WRITE_CDF_AUDIENCE}
 # Or together like this:
-# authentication:
+# auth:
 #   clientId: ${CLIENT_ID}
 #   clientSecret: ${CLIENT_SECRET}
 #   tokenUrl: ${TOKEN_URL}
