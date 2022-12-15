@@ -65,4 +65,4 @@ rawdbs:
                       - name: Prashant
                         email: pchauhan4@slb.com
                         role: Bootcamp -6 Administrator
-                        send-notification: true                        
+                        send-notification: true

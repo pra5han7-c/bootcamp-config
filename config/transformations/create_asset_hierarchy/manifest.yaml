@@ -1,16 +1,17 @@
+---
 # Manifest file downloaded from fusion
 externalId: tr-create_asset_hierarchy_ui
 name: create_asset_hierarchy_ui
 query:
     file: transformation.sql
 destination:
-  type: asset_hierarchy
+    type: asset_hierarchy
 ignoreNullFields: true
 shared: true
 action: upsert
 schedule:
-  interval: 0 * * * *
-  isPaused: true
+    interval: 0 * * * *
+    isPaused: true
 dataSetExternalId: src:001:sap:ds
 # Specify credentials separately like this:
 # authentication:
